@@ -1,5 +1,13 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
-  background-color: #361ad5;
+  background-color: #37373c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,10 +19,10 @@
   gap: 1rem;
 }
 .navbar nav ul li a {
-  color: #30ae4b;
+  color: #18291c;
 }
 .navbar nav ul li a:hover {
-  color: #3f2db2;
+  color: #3b3a3f;
 }
 
 body {
