@@ -45,6 +45,9 @@ header {
   background-color: #EEEEEE;
   padding: 2rem;
 }
+header button {
+  padding: 0.5rem;
+}
 
 article {
   display: flex;
