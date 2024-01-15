@@ -1,15 +1,18 @@
-.navbar {
+nav {
   background-color: $color-navbar-background;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  nav ul {
+  
+  ul {
     list-style-type: none;
+    align-self: center;
     display: flex;
     gap: 1rem;
     li {
       a {
+        text-decoration: none;
         color: $color-primary-navigation;
         &:hover {
           color: $color-secondary-navigation;
